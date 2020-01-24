@@ -20,3 +20,29 @@ N<sub>avg</sub>: Average gold-standard keywords (unigrams) assigned per document
 K<sub>avg</sub>: Average gold-standard keyphrases (*n*-grams) assigned per document.
 KP<sub>avg</sub>: Average percentage of keyphrases present in the text
 
+## Dataset Evaluation
+we conducted an empirical study on 5 models, the results of which are shown in  following  tables for each dataset , @5 meaning the results on the top five keyphrases and @10, top ten
+
+All the models are implemented using pke (an open source python-based keyphrase extraction toolkit)
+by deafult pke dont support persian lingustics tools and we use parsivar(A Language Processing Toolkit for Persian) and hazm (Python library for digesting Persian text) for Normalizing,Tokenizing,Stemming and POS Tag also we use kharazi
+persian-stopwords list in pke 
+
+1.**PersianNewsDataset**
+| Models | P@5| R@5 | F@5 | P@10 | R@10 | F@10 |
+| :---         |     :---:      |     :---:      |     :---:      |     :---:      |     :---:      |          :---       |
+|KpMiner	|**0.19**	|**0.21**|**0.20**|	0.13|	0.24|	017
+|Yake|	0.16|	0.18|	0.17|	**0.13**|	**0.28**|	**0.18**
+|TextRank	|0.15|	0.17|	0.16|	0.11|	0.23|	0.15
+|TopicRank|	0.14|	0.16|	0.15|	0.10|	0.22|	0.14
+|MultiPartitiRank|	0.14|	0.16|	0.15|	0.11|	0.22|	0.15
+
+
+2.**ThesisAbstract**
+| Models | P@5| R@5 | F@5 | P@10 | R@10 | F@10 |
+| :---         |     :---:      |     :---:      |     :---:      |     :---:      |     :---:      |          :---       |
+| Kpminer   |**0.21** |	**0.22** |	**0.21** |	**0.16** |	**0.25** |	**0.20**
+| Yake      |0.15 |	0.16 |	0.15 |	0.14 |	0.24 |	0.18
+|TextRank	|0.15 |	0.16 |	0.15 |	0.11 |	0.19 |	0.14
+|TopicRank	|0.14 |	0.15 |	0.14 |	0.11 |	0.19 |	0.14
+|MultiPartitiRank |	0.16 |	0.17 |	0.17 |	0.14 |	0.22 |	0.17
+
