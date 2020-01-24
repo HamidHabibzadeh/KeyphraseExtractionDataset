@@ -28,6 +28,7 @@ by deafult pke dont support persian lingustics tools and we use [parsivar](https
 persian-stopwords list](https://github.com/kharazi/persian-stopwords) in pke 
 
 1.**PersianNewsDataset**
+
 | Models | P@5| R@5 | F@5 | P@10 | R@10 | F@10 |
 | :---         |     :---:      |     :---:      |     :---:      |     :---:      |     :---:      |          :---       |
 |KpMiner	|**0.19**	|**0.21**|**0.20**|	0.13|	0.24|	017
@@ -38,6 +39,7 @@ persian-stopwords list](https://github.com/kharazi/persian-stopwords) in pke
 
 
 2.**ThesisAbstract**
+
 | Models | P@5| R@5 | F@5 | P@10 | R@10 | F@10 |
 | :---         |     :---:      |     :---:      |     :---:      |     :---:      |     :---:      |          :---       |
 | Kpminer   |**0.21** |	**0.22** |	**0.21** |	**0.16** |	**0.25** |	**0.20**
@@ -62,4 +64,7 @@ candidate Weighting: candidate_weighting(threshold=0.74, method='average')
 **MultiPartitiRank:**
 Candidate Selection: grammar_selection(grammar="NP: {<N.*>+<AJ.*>*}")
 candidate Weighting: candidate_weighting(alpha=1.1, threshold=0.25, method='average')
+
+
+tanks F.sheikhsofla for help me
 
