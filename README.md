@@ -50,19 +50,33 @@ persian-stopwords list](https://github.com/kharazi/persian-stopwords) in pke
 
 ### pke models parameters :
 **Kpminer:**
+
 Candidate Selection: candidate_selection(lasf=3, cutoff=250, stoplist=stoplist)
+
 candidate Weighting: candidate_weighting( alpha=2.3, sigma=3.0)
+
 **Yake:**
+
   Candidate Selection: candidate_selection(n=3, stoplist=stoplist)
+  
   candidate Weighting: candidate_weighting(threshold = 0.8 ,stoplist=stoplist, window=2, use_stems=False)
+  
 **TextRank:**
+
 Candidate Selection: grammar_selection(grammar="NP: {<N.*>+<AJ.*>*}")
+
 candidate Weighting: candidate_weighting(threshold=0.74, method='average')
+
 **TopicRank:**
+
 Candidate Selection: grammar_selection(grammar="NP: {<N.*>+<AJ.*>*}")
+
 candidate Weighting: candidate_weighting(threshold=0.74, method='average')
+
 **MultiPartitiRank:**
+
 Candidate Selection: grammar_selection(grammar="NP: {<N.*>+<AJ.*>*}")
+
 candidate Weighting: candidate_weighting(alpha=1.1, threshold=0.25, method='average')
 
 
