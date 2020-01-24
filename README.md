@@ -28,6 +28,7 @@ by deafult pke dont support persian lingustics tools and we use parsivar(A Langu
 persian-stopwords list in pke 
 
 1.**PersianNewsDataset**
+
 | Models | P@5| R@5 | F@5 | P@10 | R@10 | F@10 |
 | :---         |     :---:      |     :---:      |     :---:      |     :---:      |     :---:      |          :---       |
 |KpMiner	|**0.19**	|**0.21**|**0.20**|	0.13|	0.24|	017
@@ -38,6 +39,7 @@ persian-stopwords list in pke
 
 
 2.**ThesisAbstract**
+
 | Models | P@5| R@5 | F@5 | P@10 | R@10 | F@10 |
 | :---         |     :---:      |     :---:      |     :---:      |     :---:      |     :---:      |          :---       |
 | Kpminer   |**0.21** |	**0.22** |	**0.21** |	**0.16** |	**0.25** |	**0.20**
