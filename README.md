@@ -80,5 +80,5 @@ Candidate Selection: grammar_selection(grammar="NP: {<N.*>+<AJ.*>*}")
 candidate Weighting: candidate_weighting(alpha=1.1, threshold=0.25, method='average')
 
 
-tanks F.sheikhsofla for help me
+## tanks F.sheikhsofla for help me
 
