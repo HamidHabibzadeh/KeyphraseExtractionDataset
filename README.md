@@ -38,7 +38,7 @@ persian-stopwords list in pke
 |MultiPartitiRank|	0.14|	0.16|	0.15|	0.11|	0.22|	0.15
 
 
-2.**ThesisAbstract**
+2.**ThesisAbstractDataset**
 
 | Models | P@5| R@5 | F@5 | P@10 | R@10 | F@10 |
 | :---         |     :---:      |     :---:      |     :---:      |     :---:      |     :---:      |          :---       |
