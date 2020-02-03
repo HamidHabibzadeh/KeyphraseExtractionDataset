@@ -1,4 +1,4 @@
-# Persian-Keyphrase-Extraction-Datasets
+# Persian Keyphrase Extraction Datasets
 
 This repository contains two proposed annotated datasets for automatic keyphrase extraction task. Every dataset contains a document (.txt) and its corresponding text body and text gold-standard keywords list 
 
