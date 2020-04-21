@@ -9,7 +9,7 @@ I use only news body for bellow table details and evaluating , and dont use news
 
 2. **ThesisAbstractDataset**: Contains 450 thesis abstracts from Irandoc(Iranian Research Institute for Information Science and Technology) with humanities subject. We have only kept those documents that contain at least 4 gold-standard keyword.this dataset generate from 12000 thesis crawled 
 
-## Dataset details and collection statistics
+## Dataset details and statistics
 
 | Dataset | \|D\| | L<sub>avg</sub> | N<sub>avg</sub> | K<sub>avg</sub> | KP<sub>avg</sub>| S<sub>avg</sub>| ngram% | Description |
 | :---         |     :---:      |     :---:      |     :---:      |     :---:      |     :---:     |     :---:     |     :---:     |         :--- |
