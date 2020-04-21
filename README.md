@@ -4,7 +4,9 @@ This repository contains two proposed annotated datasets for automatic keyphrase
 
 Following are the datasets  proposed.
 
-1. **PersianNewsDataset**: Contains 1174 full persian news body with atleast four gold-standard keyphrase that annotated by news authors.this dataset genereted from 20,000 news crawled from multiple subject 
+1. **PersianNewsDataset**: Contains 1174 full persian news body with atleast four gold-standard keyphrase that annotated by news authors.this dataset genereted from 20,000 news crawled from multiple subject.this dataset contains news titles,leads and news body 
+I use only news body for bellow table details and evaluating , and dont use news title and leads
+
 2. **ThesisAbstractDataset**: Contains 450 thesis abstracts from Irandoc(Iranian Research Institute for Information Science and Technology) with humanities subject. We have only kept those documents that contain at least 4 gold-standard keyword.this dataset generate from 12000 thesis crawled 
 
 ## Dataset details and collection statistics
