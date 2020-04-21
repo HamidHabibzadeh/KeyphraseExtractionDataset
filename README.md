@@ -15,12 +15,19 @@ Following are the datasets  proposed.
 | ThesisAbstractDataset     | 450 |  323 | 9 | 5 | 80.3 | 15% | 20/58/14/8 | Abstracts from thesis articles published in irandoc 
 
 \|D\|: Number of documents.
+
 L<sub>avg</sub>: Average document length, in words.
+
 N<sub>avg</sub>: Average gold-standard keywords (unigrams) assigned per document.
+
 K<sub>avg</sub>: Average gold-standard keyphrases (*n*-grams) assigned per document.
+
 KP<sub>avg</sub>: Average percentage of keyphrases present in the text.
-S<sub>avg</sub>: Average percentage of stopword in keyphrase.
+
+S<sub>avg</sub>: Average percentage of stopword in gold keyphrases.
+
 ngram% :average percentage of 1/2/3/3+ -gram distribution.
+
 ## Dataset Evaluation
 we conducted an empirical study on 5 models, the results of which are shown in  following  tables for each dataset , @5 meaning the results on the top five keyphrases and @10, top ten
 
