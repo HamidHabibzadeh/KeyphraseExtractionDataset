@@ -9,17 +9,18 @@ Following are the datasets  proposed.
 
 ## Dataset details and collection statistics
 
-| Dataset | \|D\| | L<sub>avg</sub> | N<sub>avg</sub> | K<sub>avg</sub> | KP<sub>avg</sub>| Description |
-| :---         |     :---:      |     :---:      |     :---:      |     :---:      |     :---:      |          :--- |
-| PersianNewsDataset   | 1147 |  350   | 0.7 | 4.2 | 93.6 | persian full news body dataset
-| ThesisAbstractDataset     | 450 |  323 | 1.3 | 5 | 80.3 | Abstracts from thesis articles published in irandoc 
+| Dataset | \|D\| | L<sub>avg</sub> | N<sub>avg</sub> | K<sub>avg</sub> | KP<sub>avg</sub>| S<sub>avg</sub>| ngram% | Description |
+| :---         |     :---:      |     :---:      |     :---:      |     :---:      |     :---:     |     :---:     |     :---:     |         :--- |
+| PersianNewsDataset   | 1147 |  350   | 7 | 4.2 | 93.6 | 24% | 14/50/24/12 | persian full news body dataset
+| ThesisAbstractDataset     | 450 |  323 | 9 | 5 | 80.3 | 15% | 20/58/14/8 | Abstracts from thesis articles published in irandoc 
 
 \|D\|: Number of documents.
 L<sub>avg</sub>: Average document length, in words.
 N<sub>avg</sub>: Average gold-standard keywords (unigrams) assigned per document.
 K<sub>avg</sub>: Average gold-standard keyphrases (*n*-grams) assigned per document.
-KP<sub>avg</sub>: Average percentage of keyphrases present in the text
-
+KP<sub>avg</sub>: Average percentage of keyphrases present in the text.
+S<sub>avg</sub>: Average percentage of stopword in keyphrase.
+ngram% :average percentage of 1/2/3/3+ -gram distribution.
 ## Dataset Evaluation
 we conducted an empirical study on 5 models, the results of which are shown in  following  tables for each dataset , @5 meaning the results on the top five keyphrases and @10, top ten
 
